@@ -4,3 +4,4 @@ wave
 playsound
 gtts
 scipy
+regex
