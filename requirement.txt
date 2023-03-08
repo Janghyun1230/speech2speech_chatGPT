@@ -1,0 +1,6 @@
+openai
+pyaudio
+wave
+playsound
+gtts
+scipy
