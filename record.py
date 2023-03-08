@@ -44,6 +44,7 @@ def record_stream(fs=44100, channels=2, filename='./cache/input.wav'):
     wf.writeframes(b''.join(frames))
     wf.close()
     print('transcribing..', end='\r')
+    print(" " * 20, end='\r')
 
 
 def transcribe(filename='./cache/input.wav'):

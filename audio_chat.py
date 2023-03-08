@@ -1,5 +1,4 @@
 import os
-from key import key
 from record import record_stream, transcribe
 from chat import chat
 from tts import tts
@@ -11,7 +10,7 @@ if __name__ == '__main__':
     messages = []
     messages.append({
         "role": "system",
-        "content": "You are a helpful assistant. . Please reply concisely."
+        "content": "You are a helpful assistant. Please reply concisely."
     })
     msg = ''
 
