@@ -1,3 +1,4 @@
+import os
 from key import key
 from record import record_stream, transcribe
 from chat import chat
@@ -5,6 +6,8 @@ from tts import tts
 from playsound import playsound
 
 if __name__ == '__main__':
+    os.makedirs('./cache', exist_ok=True)
+
     messages = []
     messages.append({
         "role": "system",
