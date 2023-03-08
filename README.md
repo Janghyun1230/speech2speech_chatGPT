@@ -1,5 +1,13 @@
 # speech2speech_chatGPT
-Simple Python wrapper for ChatGPT with speech modules (STT, TTS)
+Simple Python wrapper for ChatGPT with speech modules (STT, TTS)  
+#### Ingredients: 
+- recording: pyaudio
+- transcribe: whisper
+- chat: ChatGPT
+- TTS: gTTS
+
+#### Support languages:
+- Korean, English
 
 ### Requirements
 ```
@@ -18,7 +26,10 @@ To chat via speech
 python audio_chat.py
 ```
 
+![example](example.png)
+
 To chat via text 
 ```
 python chat.py
 ```
+
