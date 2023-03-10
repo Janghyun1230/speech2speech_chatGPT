@@ -10,8 +10,8 @@ Simple Python wrapper for ChatGPT with speech modules (STT, TTS)
 #### Support languages:
 - Korean, English
 
-### Requirements
-(update) I found pyaudio makes some issues with Apple M1 processor, so I replaced it with sounddevice package.
+### updates
+(3/11/2023) I found pyaudio makes some issues with Apple M1 processor, so I replaced it with sounddevice package.
 
 ### Requirements
 ```
