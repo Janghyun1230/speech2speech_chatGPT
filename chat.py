@@ -1,4 +1,3 @@
-import os
 import openai
 from key import key
 
@@ -13,7 +12,7 @@ def chat(msg, messages=None):
 
     reply = completion['choices'][0]['message']['content']
     messages.append({"role": "assistant", "content": reply})
-    print(reply, "\n")
+    print(">", reply, "\n")
     return reply
 
 

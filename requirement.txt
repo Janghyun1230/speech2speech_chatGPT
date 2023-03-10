@@ -1,7 +1,7 @@
+sounddevice
+soundfile
 openai
-pyaudio
-wave
-playsound
 gtts
+playsound
 scipy
 regex

@@ -1,13 +1,17 @@
 # speech2speech_chatGPT
 Simple Python wrapper for ChatGPT with speech modules (STT, TTS)  
 #### Ingredients: 
-- recording: pyaudio
+- recording: sounddevice
 - transcribe: whisper
 - chat: ChatGPT
 - TTS: gTTS
+- play audio: playsound
 
 #### Support languages:
 - Korean, English
+
+### Requirements
+(update) I found pyaudio makes some issues with Apple M1 processor, so I replaced it with sounddevice package.
 
 ### Requirements
 ```
